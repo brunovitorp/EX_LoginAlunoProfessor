@@ -1,0 +1,55 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.app {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.lado-login  {
+  flex: 1;
+  background-color: #c8c3c3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+
+}
+
+.lado-conteudo {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 10px;
+
+}
+
+.login-options {
+  text-align: center;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.buttons button {
+  padding: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+
+form{
+  display: flex;
+  flex-direction: column;
+
+}
